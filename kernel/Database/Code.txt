@@ -1,0 +1,28 @@
+mysql -u root -p //cmd
+
+
+GRANT ALL PRIVILEGES ON `tictactoe`.* TO 'Game'@'localhost';
+FLUSH PRIVILEGES;
+
+SHOW GRANTS FOR 'Game'@'localhost';
+
+
+admin
+
+Game password
+
+CREATE DATABASE tictactoe;
+
+use Tetris
+
+DROP TABLE 3x3;
+DROP TABLE 5x5;
+DROP TABLE 7x7;
+
+CREATE TABLE 3x3(id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(255), time INT);
+CREATE TABLE 5x5(id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(255), time INT);
+CREATE TABLE 7x7(id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(255), time INT);
+
+INSERT INTO 3x3 (name, time) VALUES ('test', 123);
+INSERT INTO 5x5 (name, time) VALUES ('test', 123);
+INSERT INTO 7x7 (name, time) VALUES ('test', 123);
