@@ -4,7 +4,7 @@ import java.awt.*;
 import java.util.HashMap;
 import java.util.Random;
 public abstract class Definitions {
-    public static String gameName = "Tetris";
+    public static String gameName = "TicTacToe";
     // Перечисление для хранения типов тетромино (фигур)
     public static char EMPTY_FIELD = '*';
     public static char X_FIELD = 'X';
